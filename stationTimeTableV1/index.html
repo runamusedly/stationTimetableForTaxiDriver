@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="media/favicon.png">
+<link rel="stylesheet" href="index.css">
+<title>
+원주열차시간표
+</title>
+</head>
+<body>
+<h1 class="indexTitle">원주시 열차 시간표</h1>
+<button type="button" class="indexWeekdayButton" onclick="document.location='weekdayStation.html'">평일(월,화,수,목)</button>
+<button type="button" class="indexFridayButton" onclick="document.location='fridayStation.html'">금요일</button>
+<button type="button" class="indexWeekendButton" onclick="document.location='weekendStation.html'">주말(토,일)</button>
+<button type="button" class="indexTourButton" onclick="document.location='tourStation.html'">관광열차(장날,주말)</button>
+<p id="notice"></p>
+<div>
+	<p>안내문</p>
+	<ul>
+		<li>평일은 녹색, 금요일은 파란색, 주말은 적색, 관광열차는 노란색 계열로 스타일 했습니다.</li>
+		<li>관광열차는 2,7,12,17,22,27(장날) 및 토,일요일에 운행합니다. 주말에 운행하는 관광열차에 대한 정보는 위의 주말버튼 안에 통합되어 있으나, 평일 및 금요일에 해당되는 장날운행 건에 대해서는 해당버튼에 표시되지 않았습니다. 관광열차버튼에서 따로 정보를 확인할 수 있습니다.</li>
+		<li>모바일 환경의 엣지,크롬 앱에서 보시는 것을 추천합니다.</li>
+		<li>문의 및 건의 사항이 있을 경우에는 아래의 카카오톡 채팅방(제목:원주열차시간표)이나 이메일주소를 통해 메시지를 남겨주세요.</li>
+	</ul>
+</div>
+<button type="button" class="lightButton" onclick="lightmode()">밝음모드</button>
+<button type="button" class="darkButton" onclick="darkmode()">다크모드</button>
+<button type="button" class="indexNoteButton" onclick="document.location='note.html'">노트</button>
+<address>
+<a href="https://open.kakao.com/o/guO9O4Pg">카카오톡 채팅방(원주열차시간표)</a><br>
+이메일: runamusedly@outlook.com<br>
+</address>
+<script src="stationScript.js"></script>
+</body>
+</html>

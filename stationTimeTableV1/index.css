@@ -1,0 +1,325 @@
+	a:link {
+		color: dodgerblue;
+		text-decoration: underline;
+	}
+	a:visited {
+		color: dodgerblue;
+		text-decoration: underline;
+	}
+	a:active {
+		color: red;
+		text-decoration: underline;
+	}
+	body {
+		background-color: white;
+		color: black;
+		}
+	table {
+		border: 1px solid black;
+		border-collapse: collapse;
+		width: 100%;
+		}
+	th {
+		border: 3px solid black;
+		}
+	td {
+		border: 1px solid black;
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		}
+	.headerWeekday {/*평일상세페이지의 제목 및 표헤더*/
+		color: mediumseagreen;
+		text-align: center;
+		}
+	.headerFriday {/*금요일상세페이지의 제목 및 표헤더*/
+		color: royalblue;
+		text-align: center;
+		}
+	.headerWeekend {/*주말상세페이지의 제목 및 표헤더*/
+		color: tomato;
+		text-align: center;
+		}
+	.headerTour {/*관광열차상세페이지의 제목 및 표헤더*/
+		color: goldenrod;
+		text-align: center;
+		}
+	.weekdayTitle {/*평일메인페이지의 제목*/
+		color: mediumseagreen;
+		text-align: center;
+	}
+	.fridayTitle {/*금요일메인페이지의 제목*/
+		color: royalblue;
+		text-align: center;
+	}
+	.weekendTitle {/*주말메인페이지의 제목*/
+		color: tomato;
+		text-align: center;
+	}
+	.tourTitle {/*관광열차메인페이지의 제목*/
+		color: goldenrod;
+		text-align: center;
+	}
+	.indexTitle {/*메인페이지의 제목*/
+		text-align: center;
+	}
+	.cgu {/*center line general up 중앙선 일반 상행*/
+		
+		}
+	.cgd {/*center line general down 중앙선 일반 하행*/
+		font-weight: bold;
+		color: red;
+		}
+	.cku {/*center line KTX up 중앙선 KTX 상행*/
+	
+		}
+	.ckd	{/*center line KTX down 중앙선 KTX 하행*/
+		font-weight: bold;
+		color: red;
+		}
+	.gku {/*강릉선 KTX 상행*/
+		
+	}
+	.gkd {/*강릉선 KTX 하행*/
+		font-weight: bold;
+		color: red;
+	}
+	.arirangUp {/*관광열차상행*/
+		
+	}
+	
+	.arirangDown {/*관광열차하행*/
+		font-weight: bold;
+		color: red;
+	}
+	.weekdayButton {/*평일메인페이지의 버튼*/
+			background-color: mediumseagreen;
+			color: black;
+			text-decoration: none;
+			text-align: center;
+			border: none;
+			display: inline-block;
+			cursor: pointer;
+			font-size: 40px;
+			width: 70%;
+			padding: 30px;
+			margin: 10px 170px;
+			border-radius: 50px;
+	}
+	.fridayButton {/*금요일메인페이지의 버튼*/
+			background-color: royalblue;
+			color: black;
+			text-decoration: none;
+			text-align: center;
+			border: none;
+			display: inline-block;
+			cursor: pointer;
+			font-size: 40px;
+			width: 70%;
+			padding: 30px;
+			margin: 10px 170px;
+			border-radius: 50px;
+	}
+	.weekendButton {/*주말메인페이지의 버튼*/
+			background-color: tomato;
+			color: black;
+			text-decoration: none;
+			text-align: center;
+			border: none;
+			display: inline-block;
+			cursor: pointer;
+			font-size: 40px;
+			width: 70%;
+			padding: 30px;
+			margin: 10px 170px;
+			border-radius: 50px;
+	}
+	.tourButton {/*관광열차메인페이지의 버튼*/
+			background-color: goldenrod;
+			color: black;
+			text-decoration: none;
+			text-align: center;
+			border: none;
+			display: inline-block;
+			cursor: pointer;
+			font-size: 40px;
+			width: 70%;
+			padding: 30px;
+			margin: 10px 170px;
+			border-radius: 50px;
+	}
+	.weekday2Button {/*평일상세페이지의 상단 2개 버튼*/
+			background-color: mediumseagreen;
+			color: black;
+			text-decoration: none;
+			text-align: center;
+			border: none;
+			display: inline-block;
+			cursor: pointer;
+			font-size: 20px;
+			width:40%;
+			padding: 10px;
+			margin: 10px 60px;
+			border-radius: 50px;
+	}
+	.friday2Button {/*금요일상세페이지의 상단 2개 버튼*/
+			background-color: royalblue;
+			color: black;
+			text-decoration: none;
+			text-align: center;
+			border: none;
+			display: inline-block;
+			cursor: pointer;
+			font-size: 20px;
+			width:40%;
+			padding: 10px;
+			margin: 10px 60px;
+			border-radius: 50px;
+	}
+	.weekend2Button {/*주말상세페이지의 상단 2개 버튼*/
+			background-color: tomato;
+			color: black;
+			text-decoration: none;
+			text-align: center;
+			border: none;
+			display: inline-block;
+			cursor: pointer;
+			font-size: 20px;
+			width:40%;
+			padding: 10px;
+			margin: 10px 60px;
+			border-radius: 50px;
+	}
+	.tour2Button {/*관광열차상세페이지의 상단 2개 버튼*/
+			background-color: goldenrod;
+			color: black;
+			text-decoration: none;
+			text-align: center;
+			border: none;
+			display: inline-block;
+			cursor: pointer;
+			font-size: 20px;
+			width:40%;
+			padding: 10px;
+			margin: 10px 60px;
+			border-radius: 50px;
+	}
+	.lightButton {/*메인페이지의 밝음모드버튼*/
+			background-color: azure;
+			color: black;
+			text-decoration: none;
+			text-align: center;
+			border: 2px solid red;
+			display: inline-block;
+			cursor: pointer;
+			font-size: 20px;
+			width:20%;
+			padding: 10px;
+			margin: 50px 10px;
+			border-radius: 10px;
+	}
+	.darkButton {/*메인페이지의 다크모드버튼*/
+			background-color: darkslategray;
+			color: white;
+			text-decoration: none;
+			text-align: center;
+			border: 2px solid red;
+			display: inline-block;
+			cursor: pointer;
+			font-size: 20px;
+			width:20%;
+			padding: 10px;
+			margin: 50px 10px;
+			border-radius: 10px;
+	}
+	.indexWeekdayButton {/*메인페이지의평일버튼*/
+			background-color: mediumseagreen;
+			color: black;
+			text-decoration: none;
+			text-align: center;
+			border: none;
+			display: inline-block;
+			cursor: pointer;
+			font-size: 40px;
+			width: 70%;
+			padding: 30px;
+			margin: 10px 170px;
+			border-radius: 50px;	
+	}
+	.indexFridayButton {/*메인페이지의금요일버튼*/
+			background-color: royalblue;
+			color: black;
+			text-decoration: none;
+			text-align: center;
+			border: none;
+			display: inline-block;
+			cursor: pointer;
+			font-size: 40px;
+			width: 70%;
+			padding: 30px;
+			margin: 10px 170px;
+			border-radius: 50px;	
+	}
+	.indexWeekendButton {/*메인페이지의주말버튼*/
+			background-color: tomato;
+			color: black;
+			text-decoration: none;
+			text-align: center;
+			border: none;
+			display: inline-block;
+			cursor: pointer;
+			font-size: 40px;
+			width: 70%;
+			padding: 30px;
+			margin: 10px 170px;
+			border-radius: 50px;	
+	}
+	.indexTourButton {/*메인페이지의관광열차버튼*/
+			background-color: goldenrod;
+			color: black;
+			text-decoration: none;
+			text-align: center;
+			border: none;
+			display: inline-block;
+			cursor: pointer;
+			font-size: 40px;
+			width: 70%;
+			padding: 30px;
+			margin: 10px 170px;
+			border-radius: 50px;
+	}
+	.indexNoteButton {/*메인페이지의노트버튼*/
+			background-color: orchid;
+			color: black;
+			text-decoration: none;
+			text-align: center;
+			border: 2px solid red;
+			display: inline-block;
+			cursor: pointer;
+			font-size: 20px;
+			width:20%;
+			padding: 10px;
+			margin: 50px 10px;
+			border-radius: 10px;
+	}
+	.noteButton {/*노트페이지의버튼*/
+			background-color: orchid;
+			color: black;
+			text-decoration: none;
+			text-align: center;
+			border: none;
+			display: inline-block;
+			cursor: pointer;
+			font-size: 20px;
+			width:30%;
+			padding: 10px;
+			margin: 10px 10px;
+			border-radius: 50px;
+	}
+	.headerNote {/*노트페이지의 제목 및 표헤더*/
+			color: orchid;
+			text-align: center;
+	}
+	
+	
+			
